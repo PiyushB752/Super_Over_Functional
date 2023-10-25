@@ -1,12 +1,12 @@
-const strikeButton = document.getElementById('strike');
-const resetButton = document.getElementById('reset');
-const $team1Score = document.getElementById('score-team1');
-const $team1Wickets = document.getElementById('wickets-team1');
-const $team2Score = document.getElementById('score-team2');
-const $team2Wickets = document.getElementById('wickets-team2');
+const strikeButton = document.getElementById("strike");
+const resetButton = document.getElementById("reset");
+const $team1Score = document.getElementById("score-team1");
+const $team1Wickets = document.getElementById("wickets-team1");
+const $team2Score = document.getElementById("score-team2");
+const $team2Wickets = document.getElementById("wickets-team2");
 
 const strikeAudio = new Audio("http://bit.ly/so-ball-hit");
-const gaveOverAudio = new Audio("http://bit.ly/so-crowd-cheer");
+const gameOverAudio = new Audio("http://bit.ly/so-crowd-cheer");
 
 var team1Score = 0;
 var team1Wickets = 0;
